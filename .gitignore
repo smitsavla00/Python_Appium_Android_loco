@@ -1,0 +1,16 @@
+# Ignore all .log files
+*.log
+*.csv
+.iml
+.xml
+/src/screenshots
+/src/tests/data/
+/src/tests/reports/
+/reports/
+/extra/
+.idea
+.temp
+/src/data
+/allure-results
+/allure-report
+../__pycache__/
