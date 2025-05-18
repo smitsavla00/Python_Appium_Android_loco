@@ -446,3 +446,4 @@ class BasePage:
             self.logger.error(f"Unexpected error while finding element {locator}: {str(e)}")
             raise
 
+
