@@ -84,12 +84,6 @@ class BasePage:
         """Helper method to log debug messages."""
         self.logger.debug(message)
 
-    # def take_screenshot(self, screenshot_name):
-    #     """Placeholder method to take a screenshot (if necessary)."""
-    #     # You can implement the screenshot functionality here
-    #     # For example, save it with the name screenshot_name
-    #     self.logger.info(f"Screenshot saved: {screenshot_name}")
-
     def wait_for_element_to_be_clickable(self, locator):
         """
         Waits for an element to be clickable.
